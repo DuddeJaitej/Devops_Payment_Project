@@ -1,0 +1,65 @@
+
+.navbar{
+    height:60px;
+    width:100%;
+    background-color: rgb(0, 27, 95);
+    color:white;
+    text-align: center;
+    position: fixed;
+    top:0px;
+}
+.navbar p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top:10px;
+    padding-bottom: 40px;
+}
+.Home-login {
+    background-color:#fcfcff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+    
+
+    
+}
+
+.login-button{
+   
+    padding: 55px;
+   
+    margin-left: 17%;
+    width: 80%;
+    height: 100px;
+    
+    margin-top: 5%;
+    margin-bottom: 15%;
+    
+}
+.login-button a{
+    color: #f0f0f5;
+    text-decoration: none;
+}
+.logo{
+    margin-right: 10%;
+    
+    
+}
+button {
+    padding: 25px;
+    font-size: 18px;
+    background-color: #164693;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #357ae8;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}

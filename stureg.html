@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Register Page</title>
+    <link rel="stylesheet" href="stureg.css">
+    
+</head>
+<body>
+    <div class="navbar">
+            <p>PRESIDENCY UNIVERISTY</p>
+        </div>
+
+    <div class="register-form">
+        <h2>Student Registration</h2>
+        <form action="stureg.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="roll">Roll Number:</label>
+            <input type="text" id="roll" name="roll" required>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="BSc">MCA</option>
+                <option value="BA">BSc</option>
+                <option value="BCom">BCom</option>
+                <option value="BTech">BBA</option>
+            </select>
+
+            <label for="section">Section:</label>
+            <input type="text" id="section" name="section" required>
+
+            <button type="submit"><a href="slogin.html">Register</a></button>
+        </form>
+    </div>
+
+</body>
+</html>
