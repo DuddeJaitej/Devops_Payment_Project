@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Nunito Sans";
+}
+body{
+    background-color: #f4f4f4
+}
+.navbar{
+    height:50px;
+    width:100%;
+    background-color: rgb(0, 27, 95);
+    color:white;
+    position: fixed;
+    top:0px;
+}
+.navbar p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top:5px;
+    margin: 0 auto;
+}
+.container{
+    height:90vmin;
+    width:70%;
+    text-align: center;
+    margin:30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.amount{
+    margin-top:30px;
+}
+.amount label{
+    font-size: 20px;
+    font-weight:bold;
+}
+.amount input{
+    height:30px;
+    width:200px;
+}
+.payment-form{
+    text-align: center;
+}
+.logo{
+    height:75px;
+    width:160px;
+    margin:0px 10px 20px 10px;
+    /* border:1px solid black; */
+    border-radius:10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logo:hover{
+    border: 0.5px solid grey;
+}
+
+.payment-options{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:40px;
+    
+}
+.carddetails{
+    width:60%;
+    height:50vmin;
+    padding:20px;
+    border:1px solid rgb(219, 216, 216);
+    border-radius:5px;
+    padding:30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.carddetails h4{
+    font-size:20px;
+    padding:20px 20px 20px 10px;
+}
+input[type="text"] {
+    margin:0px 10px 20px 10px;
+}
+.upi{
+    height:50vmin;
+    width:30%;
+    border:1px solid rgb(219, 216, 216);
+    border-radius:5px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.upi h4{
+    font-size:20px;
+    padding:20px 20px 10px 10px;
+    
+}
+
+button{
+    height:40px;
+    width:20%;
+    background-color: rgb(0, 160, 27);
+    color: white;
+    border:none;
+    margin-top: 20px;
+    font-weight: bold;
+   
+}
+
+button:hover{
+    background-color: rgb(50, 124, 50);
+}
