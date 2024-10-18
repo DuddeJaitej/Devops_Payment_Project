@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Nunito Sans";
+    
+}
+body{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.navbar{
+    height:50px;
+    width:100%;
+    background-color: rgb(0, 27, 95);
+    color:white;
+    text-align: center;
+    position: fixed;
+    top:0px;
+}
+.navbar p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top:10px;
+}
+.tickmark{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    background-image: url(/images/tickmark.png);
+    background-size: cover;
+    margin: 150px auto;
+    animation-name: tickTransition;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.pay{
+    font-size:30px;
+    font-weight: bold;
+    margin:-80px;
+}
+
+@keyframes tickTransition{
+    0%   {scale: 1.0;}
+  25%  {scale: 1.2;}
+  50%  {scale: 1.1;}
+  100% {scale: 1.0;}
+}
